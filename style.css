@@ -1,0 +1,85 @@
+body{
+    background-image: url(./Images/shara\ desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    color: white;
+    padding: 0 30px;
+}
+
+.menu{
+    width: 40px;
+    height:40px;
+}
+.text{
+    color: white;
+    width: 500px;
+}
+.text_heading{
+    font-size: xx-large;
+}
+button{
+    padding:10px 60px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: bold
+}
+.image_main{
+    width: 450px;
+    height: 520px;
+    color: white;
+    font-weight:bold ;
+    
+}
+.img_box1{
+    width: 200px;
+    height: 230px;
+    background-image: url(./Images/pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+.img_box2{
+    width: 200px;
+    height: 230px;
+    background-image: url(./Images/pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.img_box3{
+    width: 200px;
+    height: 230px;
+    background-image: url(./Images/pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.img_box4{
+    width: 200px;
+    height: 230px;
+    background-image: url(./Images/pic-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.img_text{
+    font-size: small;
+}
