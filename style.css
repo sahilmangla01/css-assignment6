@@ -1,6 +1,5 @@
 body{
     background-image: url(./Images/shara\ desert.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
    
 }
@@ -30,7 +29,7 @@ li{
     width: 40px;
     height:40px;
 }
-section{
+.section{
     margin-top: 50px;
     margin-right: 50px;
 }
@@ -63,68 +62,44 @@ button{
  
     
 }
+.img_box{
+    width: 210px;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    transition: transform 1s ease;
+}
+.img_box:hover{
+    transform: translateY(-20px);
+    
+}
 .img_box1{
-    width: 210px;
-    height: 230px;
+   
     background-image: url(./Images/pic-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    box-sizing: border-box;
-    transition: transform 1s ease;
+   
     
 }
-.img_box1:hover{
-    transform: translateY(-20px);
-    
-}
+
 .img_box2{
-    width: 210px;
-    height: 230px;
+    
     background-image: url(./Images/pic-2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    box-sizing: border-box;
-    transition: transform 1s ease;
+    
 }
-.img_box2:hover{
-    transform: translateY(-20px);
-}
+
 .img_box3{
-    width: 210px;
-    padding-left: 20px;
-    height: 230px;
     background-image: url(./Images/pic-3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    padding-top: 10px;
-    box-sizing: border-box;
-    transition: transform 1s ease;
+    
 }
-.img_box3:hover{
-    transform: translateY(-20px);
-}
+
 .img_box4{
-    width: 210px;
-    padding-left: 20px;
-    height: 230px;
     background-image: url(./Images/pic-4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    padding-top: 10px;
-    box-sizing: border-box;
-    transition: transform 1s ease;
+    
 }
-.img_box4:hover{
-    transform: translateY(-20px);
-}
+
 .img_text{
     font-size:x-small;
     line-height: 20px;
@@ -134,4 +109,126 @@ button{
 }
 .marginright{
     margin-right: 100px;
+}
+
+
+/* tablet */
+
+@media only screen  and  (max-width:900px){
+    .body{
+        padding-bottom: 20px;
+        background-size: auto;
+        background-repeat: repeat;
+    }
+    header{
+        margin-top: 0px;
+    }
+    .logo{
+        width:60px;
+        height: 60px;
+    }
+    ul{
+        position: absolute;
+        right: 70px;
+    }
+    .menu{
+        position: absolute;
+        right: 30px;
+    }
+   li{
+    padding: 0 20px;
+   }
+    .section{
+        margin-top: 0;
+    }
+    .text_heading{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .text_paragraph{
+        width: 700px;
+        margin-top: 0;
+    }
+    .image_main{
+        width: 600px;
+        margin-top: 20px;
+        margin-left: 20vw;
+        
+    }
+    .img_box{
+        width: 500px;
+        background-repeat: repeat;
+        background-position: center;
+        margin-bottom: 20px;
+        
+    }
+   
+    
+}
+
+/* mobile */
+@media only screen  and (min-width:280px)and (max-width:500px){
+    .body{
+        padding-bottom: 20px;
+        background-size: auto;
+        background-repeat: repeat;
+        background-position: center;
+    }
+    header{
+        margin-top: 0px;
+    }
+    .logo{
+        width:60px;
+        height: 60px;
+        margin-top: 10px;
+        
+    }
+    a:link{
+        text-decoration: none;
+    }
+    ul{
+        position: absolute;
+        right: 45px;
+    }
+    li{
+        display: block;
+        padding: 0 20px;
+        font-weight: bolder;
+    }
+    .marginleft{
+        margin-left: 10px;
+    }
+   .menu{
+    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+   }
+   
+    .section{
+        margin-top: 0;
+    }
+    .text_heading{
+        margin-top: 10px;
+        font-size: 45px;
+    }
+    .text_paragraph{
+        width: 300px;
+        margin-top: 0;
+        font-size: large;
+        font-weight: bold;
+    }
+    .image_main{
+        width: 600px;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    .img_box{
+        width: 210px;
+        background-repeat: repeat;
+        background-position: center;
+        margin-bottom: 20px;
+        
+    }
+   
+    
 }
